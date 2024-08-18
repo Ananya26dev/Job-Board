@@ -20,3 +20,12 @@ Fetches a list of job posting IDs.
 URL: https://hacker-news.firebaseio.com/v0/jobstories.json
 HTTP Method: GET
 Content Type: json
+
+Job Details
+
+Fetches job posting details given its ID.
+
+URL: https://hacker-news.firebaseio.com/v0/item/{id}.json
+HTTP Method: GET
+Content Type: json
+Sample response for https://hacker-news.firebaseio.com/v0/item/35908337.json:
